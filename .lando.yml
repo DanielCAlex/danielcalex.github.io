@@ -1,0 +1,16 @@
+name: portfolio``
+
+services:
+  node:
+    type: node:14
+    globals:
+        
+tooling:
+  npm:
+    service: node
+  npx:
+    service: node
+  yarn:
+    service: node
+  webpack:
+    service: node
