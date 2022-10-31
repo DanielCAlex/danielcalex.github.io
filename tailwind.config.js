@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./*.{html, js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'lato': ['Lato', 'sans-serif'],
+      },
+      colors: {
+        'orange': '#FAC898',
+        'purple': '#162838',
+      },
+    },
   },
   plugins: [],
 }
