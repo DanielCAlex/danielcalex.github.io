@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'lato': ['Lato', 'sans-serif'],
+        'quicksand': ['Quicksand', 'sans-serif'],
       },
       colors: {
         'orange': '#FAC898',

@@ -4,7 +4,16 @@
 
 
 @layer components {
-    .item {
-        @apply px-3
+    
+    .workplace {
+        @apply grid grid-cols-2 xl:grid-cols-2 gap-5 mb-7
+    }
+    
+    .name {
+        @apply font-lato text-purple mb-3
+    }
+    
+    .item-title {
+        @apply font-quicksand text-2xl text-center mb-3
     }
 }
